@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.8"
+
+      - name: Upgrade pip
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Install dependencies (pip)
+        run: |
+          pip install -r requirements.txt
+          pip install mediapipe==0.10.11
+
+      - name: Import validation
+        run: |
+          python - <<EOF
+          import cv2
+          import mediapipe
+          import pyttsx3
+          import speech_recognition
+          import pynput
+          import pyautogui
+          print("All core imports successful")
+          EOF

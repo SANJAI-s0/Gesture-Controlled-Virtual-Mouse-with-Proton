@@ -1,0 +1,103 @@
+# =========================
+# Python bytecode
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+
+# =========================
+# Conda
+# =========================
+.conda/
+conda-meta/
+
+# =========================
+# IDEs & Editors
+# =========================
+.idea/
+.vscode/
+.vs/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+src/.vs/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs & temporary files
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+tempCodeRunnerFile.py
+
+# =========================
+# Databases & state files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# JSON (generated only)
+# =========================
+# NOTE: keep config JSONs tracked if needed
+*.json
+!package.json
+!tsconfig.json
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# MediaPipe / OpenCV outputs
+# =========================
+*.pbtxt
+*.tflite
+*.onnx
+
+# =========================
+# Generated calibration outputs
+# =========================
+calib_images/output/
+
+# =========================
+# Generated demo media only
+# =========================
+demo_media/generated/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
