@@ -23,12 +23,18 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
-      - name: Install dependencies (pip)
+      - name: Install core dependencies (CI-safe)
         run: |
-          pip install -r requirements.txt
           pip install mediapipe==0.10.11
+          pip install opencv-python
+          pip install pyttsx3
+          pip install SpeechRecognition
+          pip install pynput
+          pip install pyautogui
+          pip install wikipedia
+          pip install eel
 
-      - name: Import validation
+      - name: Import validation (NO hardware)
         run: |
           python - <<EOF
           import cv2
@@ -37,5 +43,7 @@ jobs:
           import speech_recognition
           import pynput
           import pyautogui
-          print("All core imports successful")
+          import wikipedia
+          import eel
+          print("CI import validation passed")
           EOF
