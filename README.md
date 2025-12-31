@@ -573,9 +573,21 @@ docker run --rm gesture-controlled-virtual-mouse-with-proton
 
 ---
 
-## 📄 License
+## 📜 License
 
-MIT License. See `LICENSE` file in the repository root for details.
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+You are free to:
+- Use the software for personal or commercial purposes
+- Modify the source code
+- Distribute the software and modifications
+
+Under the conditions that:
+- Source code must be disclosed
+- Modifications must use the same license (GPL-3.0)
+- License and copyright notices must be preserved
+
+See the [LICENSE](LICENSE) file for full details.
 
 ---
 
