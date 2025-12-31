@@ -1,6 +1,6 @@
 # 🖐️ Gesture Controlled Virtual Mouse & 🎙️ Proton Voice Assistant
 
-![Python](https://img.shields.io/badge/Python-3.8.5-blue) ![Platform](https://img.shields.io/badge/Platform-Windows-green) ![Computer Vision](https://img.shields.io/badge/MediaPipe-Hands-orange)
+![Python](https://img.shields.io/badge/Python-3.8.5-blue) ![Platform](https://img.shields.io/badge/Platform-Windows-green) ![MediaPipe](https://img.shields.io/badge/MediaPipe-Hands-orange) ![CI](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/actions/workflows/ci.yml/badge.svg?branch=main) ![Docker](https://img.shields.io/badge/Docker-Supported-blue)
 
 A **Windows-based Human–Computer Interaction system** that enables **mouse control using hand gestures** and **system automation using voice commands**.
 
@@ -41,6 +41,8 @@ The system runs **fully offline for gestures** and **online for speech recogniti
     -   [Prerequisites](#%EF%B8%8F-prerequisites)
     -   [Installation & Setup](#procedure)
     -   [Running the Application](#run-the-application)
+-   [Continuous Integration (CI)](#-continuous-integration-ci)
+    
 -   [Docker Support](#-docker-support)
     
 -   [Known Limitations](#%EF%B8%8F-known-limitations)
@@ -77,7 +79,7 @@ The system runs **fully offline for gestures** and **online for speech recogniti
 
 ---
 
-## 🧠 System Architecture
+## 🧠 Project Structure
 
 ```
 Gesture-Controlled-Virtual-Mouse/
@@ -169,11 +171,22 @@ Gesture-Controlled-Virtual-Mouse/
 │   └── __pycache__/                  # python bytecode cache
 │       ├── app.cpython-38.pyc
 │       └── Gesture_Controller.cpython-38.pyc
+└──docs/
+    └── architecture/
+        └── runtime_execution_model.png
 ```
 
 ---
 
+## 🧠 System Architecture
+
+The following diagram illustrates the **runtime execution model**, highlighting the separation between the **main voice assistant thread** and the **secondary gesture recognition thread**.
+
 **High-level components:**
+
+![Runtime Execution Model](docs/architecture/runtime_execution_model.png)
+
+---
 
 ### 🔹 Component Responsibilities
 
@@ -493,26 +506,40 @@ python Gesture_Controller.py
 
 ---
 
+## 🔄 Continuous Integration (CI)
+
+This project uses **GitHub Actions** to validate builds and dependencies on every push and pull request.
+
+### CI Highlights
+
+-   Runs on **Windows**
+-   Uses **Python 3.8**
+-   Installs all required dependencies
+-   Performs import-level validation
+
+> Webcam, microphone, and gesture execution are **not run in CI** due to hardware limitations.
+
+**CI configuration file:**
+
+---
+
 ## 🐳 Docker Support
 
-> ⚠️ Docker cannot access webcam, microphone, or control the host mouse on Windows.
+Docker support is provided for **dependency validation and reproducibility**.
 
-Docker is provided for:
+> ⚠️ **Important Limitation:**  
+> Webcam, microphone, and OS-level mouse control **do not work inside Docker**. Docker is intended for testing and CI only.
 
--   Dependency validation
--   CI pipelines
--   Import testing
+### Build Docker Image
 
-**Build**
-
-```powershell
-docker build -t proton-gesture .
+```bash
+docker build -t gesture-controlled-virtual-mouse-with-proton .
 ```
 
-**Run (limited)**
+**Run Docker Container**
 
 ```powershell
-docker run --rm proton-gesture
+docker run --rm gesture-controlled-virtual-mouse-with-proton
 ```
 
 > (See Dockerfile in repo root for details.)

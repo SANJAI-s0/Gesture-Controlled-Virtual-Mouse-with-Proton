@@ -4,6 +4,11 @@ This document describes the internal architecture of the **Gesture Controlled Vi
 
 The system is designed to enable **hands-free human–computer interaction** using a combination of **computer vision**, **speech recognition**, and **OS-level automation**.
 
+![Runtime Execution Model](docs/architecture/runtime_execution_model.png)
+
+This diagram represents how the system executes at runtime, clearly separating
+voice processing and gesture recognition into independent threads.
+
 ---
 
 ## High-Level Overview
