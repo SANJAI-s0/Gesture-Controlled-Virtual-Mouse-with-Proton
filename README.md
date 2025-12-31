@@ -506,20 +506,11 @@ python Gesture_Controller.py
 
 ---
 
-## 🔄 Continuous Integration (CI)
+### ⚠️ **CI Note**
 
-This project uses **GitHub Actions** to validate builds and dependencies on every push and pull request.
-
-### CI Highlights
-
--   Runs on **Windows**
--   Uses **Python 3.8**
--   Installs all required dependencies
--   Performs import-level validation
-
-> Webcam, microphone, and gesture execution are **not run in CI** due to hardware limitations.
-
-**CI configuration file:**
+> Continuous Integration validates dependency installation and core imports only.
+> Hardware-dependent modules (microphone, webcam, system audio/brightness)
+> are intentionally excluded from CI checks.
 
 ---
 
