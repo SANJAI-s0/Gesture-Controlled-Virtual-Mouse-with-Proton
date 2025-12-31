@@ -11,6 +11,15 @@ voice processing and gesture recognition into independent threads.
 
 ---
 
+## Execution Flow Summary
+
+- Proton (Voice Assistant) runs in the **main thread**
+- Gesture recognition runs in a **secondary thread**
+- Both threads interact with the **Operating System Layer**
+- This design prevents blocking and ensures responsiveness
+
+---
+
 ## High-Level Overview
 
 The application consists of two primary runtime modules:
@@ -146,6 +155,14 @@ Windows APIs | Required for system-level automation |
 - Robust runtime stability
 - Minimal external dependencies
 
+> This architecture prioritizes **clarity and reliability** over abstraction, making the system suitable for learning, demonstration, and research use.
+
 ---
 
-> This architecture prioritizes **clarity and reliability** over abstraction, making the system suitable for learning, demonstration, and research use.
+## License Notice
+
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+All architectural descriptions and diagrams are covered under the same license
+unless stated otherwise.
+
+---
