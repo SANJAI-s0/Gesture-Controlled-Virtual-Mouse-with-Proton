@@ -431,26 +431,32 @@ This architecture prioritizes **clarity, reliability, and educational value** ov
 
 ### Voice Assistant ( ***Proton*** ):
 
-Launch / Stop Gesture Recognition ![launch stop gesture recognition](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20launch%20stop%20gest.png)
+Launch / Stop Gesture Recognition  
+![launch stop gesture recognition](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20launch%20stop%20gest.png)
 
 -   `Proton Launch Gesture Recognition`  
     Turns on webcam for hand gesture recognition.
 -   `Proton Stop Gesture Recognition`  
     Turns off webcam and stops gesture recognition. (Termination of Gesture controller can also be done via pressing `Enter` key in webcam window)
 
-Google Search ![proton search github](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20search.png)
+Google Search  
+![proton search github](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20search.png)
 
 -   `Proton search {text_you_wish_to_search}`  
     Opens a new tab on Chrome Browser if it is running, else opens a new window. Searches the given text on Google.
 
-Find a Location on Google Maps ![proton find location](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20find%20location.png)
+Find a Location on Google Maps  
+![proton find location](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20find%20location.png)
 
 1.  `Proton Find a Location`  
     Will ask the user for the location to be searched.
 2.  `{Location_you_wish_to_find}`  
     Will find the required location on Google Maps in a new Chrome tab.
 
-File Navigation ![proton list files](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20list%20files.png)  ![proton open](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20open.png)  ![proton go back](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20go%20back.png)
+File Navigation  
+![proton list files](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20list%20files.png) 
+![proton open](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20open.png) 
+![proton go back](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20go%20back.png)
 
 -   `Proton list files` / `Proton list`  
     Will list the files and respective file_numbers in your Current Directory (by default C:)
@@ -459,22 +465,24 @@ File Navigation ![proton list files](https://github.com/xenon-19/Gesture_Control
 -   `Proton go back` / `Proton back`  
     Changes the Current Directory to Parent Directory and lists the files.
 
-Current Date and Time ![proton date / time](https://github.com/xenon-19/Gesture_Controller/blob/d49c868acc41ac6c89489bfd80e5e5015a8cb571/demo_media/voice%20commands/proton%20date%20time.png)
+Current Date and Time  
+![proton date / time](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20date%20time.png)
 
 -   `Proton what is today's date` / `Proton date`  
     `Proton what is the time` / `Proton time`  
     Returns the current date and time.
 
-Copy and Paste ![proton copy](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20copy.png) ![proton paste](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20paste.png)
+Copy and Paste  
+![proton copy](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20copy.png)
+![proton paste](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20paste.png)
 
 -   `Proton Copy`  
     Copies the selected text to clipboard.
-    
 -   `Proton Paste`  
     Pastes the copied text.
-    
 
-Sleep / Wake up Proton ![proton sleep / wake up](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20bye%20wake%20up.png)
+Sleep / Wake up Proton  
+![proton sleep / wake up](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20bye%20wake%20up.png)
 
 -   Sleep  
     `Proton bye`  
@@ -483,10 +491,11 @@ Sleep / Wake up Proton ![proton sleep / wake up](https://github.com/xenon-19/Ges
     `Proton wake up`  
     Resumes voice command execution.
 
-Exit ![proton exit](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20exit.png)
+Exit  
+![proton exit](https://github.com/SANJAI-s0/Gesture-Controlled-Virtual-Mouse-with-Proton/blob/main/demo_media/voice%20commands/proton%20exit.png)
 
 -   `Proton Exit`  
-    Terminates the voice assisstant thread. GUI window needs to be closed manually.
+    Terminates the voice assistant thread. GUI window needs to be closed manually.
 
 ---
 
