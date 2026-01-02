@@ -429,52 +429,6 @@ This architecture prioritizes **clarity, reliability, and educational value** ov
 
 ---
 
-### Gesture Recognition:
-
-Neutral Gesture
-
-![Palm](https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/palm.gif)
-
-Neutral Gesture. Used to halt/stop execution of current gesture.
-
-Move Cursor ![Move Cursor](https://github.com/xenon-19/Gesture_Controller/blob/e20edfb1f368ffa600d96bd91031942ec97cb2ab/demo_media/move%20mouse.gif)
-
-Cursor is assigned to the midpoint of index and middle fingertips. This gesture moves the cursor to the desired location. Speed of the cursor movement is proportional to the speed of hand.
-
-Left Click ![Left Click](https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/left%20click.gif)
-
-Gesture for single left click
-
-Right Click ![Right Click](https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/right%20click.gif)
-
-Gesture for single right click
-
-Double Click ![Double Click](https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/double%20click.gif)
-
-Gesture for double click
-
-Scrolling ![Scrolling](https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/Scrolling.gif)
-
-Dynamic Gestures for horizontal and vertical scroll. The speed of scroll is proportional to the distance moved by pinch gesture from start point. Vertical and Horizontal scrolls are controlled by vertical and horizontal pinch movements respectively.
-
-Drag and Drop ![Drag and Drop](https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/drag%20and%20drop.gif)
-
-Gesture for drag and drop functionality. Can be used to move/tranfer files from one directory to other.
-
-Multiple Item Selection ![Multiple Item Selection](https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/multiple%20item%20selection.gif)
-
-Gesture to select multiple items
-
-Volume Control ![Volume Control](https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/Volume%20control.gif)
-
-Dynamic Gestures for Volume control. The rate of increase/decrease of volume is proportional to the distance moved by pinch gesture from start point.
-
-Brightness Control ![Brightness Control](https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/Brigntness%20Control.gif)
-
-Dynamic Gestures for Brightness control. The rate of increase/decrease of brightness is proportional to the distance moved by pinch gesture from start point.
-
----
-
 ### Voice Assistant ( ***Proton*** ):
 
 Launch / Stop Gesture Recognition ![launch stop gesture recognition](https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20launch%20stop%20gest.png)
